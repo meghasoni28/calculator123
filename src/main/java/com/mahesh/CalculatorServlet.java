@@ -22,7 +22,7 @@ public class CalculatorServlet extends HttpServlet {
 		int num2=0;
 		int op=0 ;
 		try {
-		num1=Integer.parseInt(request.getParameter("n1"))/;
+		num1=Integer.parseInt(request.getParameter("n1"));
 		num2=Integer.parseInt(request.getParameter("n2"));
 		op = Integer.parseInt(request.getParameter("op"));
 		}catch(NumberFormatException e) {
